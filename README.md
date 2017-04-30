@@ -2,17 +2,17 @@ STEP 1:Set up virtual host
 
 help link:https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts
 
-Document Root :/path/wingify_app
+Document Root :/path/rootfolder
 
 STEP 2:Set up mysql db
-    Import db form wingify_app/db/wingify_product_app.sql
+    Import db form /db/wingify_product_app.sql
 STEP 3:
-    Change config.file wingify_app/config/config.php
-    DB_NAME:wingify_product_app
+    Change config.file /config/config.php
+    DB_NAME:product_app
     DB_USER:your mysql username
     DB_PASSWORD:your mysql password
     HOST:mydql host
-    BASE_PATH:host for wingify_app  same as virtual host server name//like http://localhost/wingify_app
+    BASE_PATH:host for app  same as virtual host server name//like http://localhost/rootfolder
 
 
 
